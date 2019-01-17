@@ -21,9 +21,10 @@ Vue.use(ElementUI, {
 })
 
 new Vue({
+    el: '#app',
     i18n,
     axios,
     router,
     store,
     render: h => h(App)
-}).$mount('#app')
+})

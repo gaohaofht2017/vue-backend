@@ -70,6 +70,14 @@ var data = [
             {
                 path: '/example/map',
                 name: '地图页面'
+            },
+            {
+                path: '/example/linkage',
+                name: '三级联动'
+            },
+            {
+                path: '/example/agGrid',
+                name: '功能强大的表格组件'
             }
         ]
     },

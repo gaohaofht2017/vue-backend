@@ -94,7 +94,15 @@ const staticRoute = [
             {
                 path: 'map',
                 component: () => import(/* webpackChunkName: 'example' */ '../page/example/map')
-            }
+            },
+            {
+                path: 'linkage',
+                component: () => import(/* webpackChunkName: 'example' */ '../page/example/linkage')
+            },
+            {
+                path: 'agGrid',
+                component: () => import(/* webpackChunkName: 'example' */ '../page/example/agGrid')
+            },
         ]
     },
     {

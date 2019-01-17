@@ -5,7 +5,7 @@
 <script>
 /* eslint-disable */
 import amap from '@/util/amap'
-var map
+var map;
 export default {
     mounted() {
         amap.load(() => {
